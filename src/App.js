@@ -1,24 +1,3 @@
-// import React from "react";
-// import { WeatherProvider } from "./context/WeatherContext";
-// import SearchBar from "./components/SearchBar";
-// import WeatherInfo from "./components/WeatherInfo";
-// import ErrorMessage from "./components/ErrorMessage";
-// import "./styles.css";
-
-// const App = () => {
-//   return (
-//     <WeatherProvider>
-//       <div className="app-container">
-//         <h1>Weather Dashboard</h1>
-//         <SearchBar />
-//         <ErrorMessage />
-//         <WeatherInfo />
-//       </div>
-//     </WeatherProvider>
-//   );
-// };
-
-// export default App;
 import React from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { WeatherProvider } from "./context/WeatherContext";
