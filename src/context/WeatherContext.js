@@ -1,7 +1,7 @@
 import React, { createContext, useState } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
-import "../WeatherDashboard.css"; // Ensure this is correctly placed
+import "../WeatherDashboard.css"; 
 
 const API_KEY = "6f3af5685e369205b3125530c7adfa79";
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
